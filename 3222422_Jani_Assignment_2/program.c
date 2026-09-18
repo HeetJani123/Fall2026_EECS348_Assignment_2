@@ -13,24 +13,24 @@
  * Revisions:  Added the required prologue and explanatory source comments.
  */
 
-/* Provides input/output functions such as printf, fprintf, fopen, and fgets. */
+
 #include <stdio.h> /* Include standard input and output declarations. */
-/* Provides dynamic-memory functions such as realloc and free. */
+
 #include <stdlib.h> /* Include memory-management and conversion declarations. */
-/* Provides string-processing functions such as strcmp, strchr, and strlen. */
+
 #include <string.h> /* Include string-processing declarations. */
-/* Provides character classification through the isspace function. */
+
 #include <ctype.h> /* Include character-classification declarations. */
 
-/* Sets the maximum number of characters read from one input line. */
+
 #define MAX_LINE    1024 /* Set the maximum input-line length. */
-/* Sets the maximum stored length of an email subject, including its terminator. */
+
 #define MAX_SUBJECT 512 /* Set the maximum email-subject length. */
-/* Sets the maximum stored length of a sender name, including its terminator. */
+
 #define MAX_SENDER  64 /* Set the maximum sender-name length. */
-/* Sets the maximum stored length of a date string, including its terminator. */
+
 #define MAX_DATE    16 /* Set the maximum date-text length. */
-/* Records the number of recognized sender-priority categories. */
+
 #define NUM_CATEGORIES 5 /* Set the number of sender categories. */
 
 /* Maps each recognized sender category to its priority rank. */
